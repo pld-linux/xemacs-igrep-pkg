@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Enhanced front-end for Grep.
 
-%description -l pl 
+%description -l pl
 Rozszerzony frontend na Grep.
 
 %prep
@@ -30,7 +30,7 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/igrep/ChangeLog 
+gzip -9nf lisp/igrep/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
