@@ -1,11 +1,12 @@
 Summary:	Enhanced front-end for Grep
-Summary(pl):	Enhanced front-end for Grep
+Summary(pl):	Rozszerzony frontend na Grep
 Name:		xemacs-igrep-pkg
 %define 	srcname	igrep
 Version:	1.08
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 URL:		http://www.xemacs.org/
@@ -17,8 +18,10 @@ Requires:	xemacs-base-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Enhanced front-end for Grep.
 
 %description -l pl 
+Rozszerzony frontend na Grep.
 
 %prep
 %setup -q -c
