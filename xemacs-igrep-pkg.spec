@@ -2,7 +2,7 @@ Summary:	Enhanced front-end for Grep
 Summary(pl):	Enhanced front-end for Grep
 Name:		xemacs-igrep-pkg
 %define 	srcname	igrep
-Version:	1.07
+Version:	1.08
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
