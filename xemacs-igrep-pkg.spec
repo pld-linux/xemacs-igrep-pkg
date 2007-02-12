@@ -1,5 +1,5 @@
 Summary:	Enhanced front-end for Grep
-Summary(pl.UTF-8):   Rozszerzony frontend na Grep
+Summary(pl.UTF-8):	Rozszerzony frontend na Grep
 Name:		xemacs-igrep-pkg
 %define 	srcname	igrep
 Version:	1.12
