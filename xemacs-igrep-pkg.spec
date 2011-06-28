@@ -2,12 +2,12 @@ Summary:	Enhanced front-end for Grep
 Summary(pl.UTF-8):	Rozszerzony frontend na Grep
 Name:		xemacs-igrep-pkg
 %define 	srcname	igrep
-Version:	1.12
-Release:	2
+Version:	1.16
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	a46e749b903ad526dad1a898496e9812
+# Source0-md5:	f99d18275def445bf752f71b30687581
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
